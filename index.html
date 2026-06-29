@@ -28,7 +28,18 @@
     footer{padding:34px clamp(18px,5vw,64px);color:var(--muted);border-top:1px solid var(--line);background:#fff}footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
     @media(max-width:940px){.nav{position:static;align-items:flex-start;flex-direction:column}.links{width:100%;overflow-x:auto;padding-bottom:2px}.hero{min-height:76vh;background-position:58% center}.head,.quote-grid,.price-contact{grid-template-columns:1fr}.programs,.pill-row,.process-grid,.voice-grid,.poster-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr;grid-auto-rows:270px}.gallery figure:first-child{grid-row:span 1}.director{grid-template-columns:92px 1fr}.director img{width:92px;height:92px}}
     @media(max-width:540px){.hero-actions,.actions{flex-direction:column;align-items:stretch}.btn{width:100%}.row{flex-direction:column;gap:2px}.gallery{grid-auto-rows:235px}}
-  </style>
+  
+/* Main visual: Booktong logo colors without a photo. */
+.hero{
+  color:#fff;
+  background:
+    linear-gradient(90deg,rgba(4,22,48,.88) 0 48%,rgba(4,22,48,.56) 68%,rgba(4,22,48,.24) 100%),
+    linear-gradient(135deg,#23c3c8 0 27%,#238edb 27% 54%,#4559dc 54% 78%,#7542c7 78% 100%);
+  background-position:center;
+  background-size:cover;
+}
+.hero p{color:rgba(255,255,255,.96)}
+</style>
 </head>
 <body>
   <nav class="nav" aria-label="주요 메뉴">
